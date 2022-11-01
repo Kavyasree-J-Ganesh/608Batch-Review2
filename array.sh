@@ -3,7 +3,7 @@
 array=()
 for ((count=0; count<=9; count++))
 do
-	read -p " Enter $count th number " x
+	read -p " Enter value at $count index " x
 	array[$counter]=$x
 	echo ${array[$counter]}
 done
